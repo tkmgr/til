@@ -27,7 +27,7 @@ namespace WindowsFormsApp1
             var result1 = from num in nums
                           where num >= 5
                           select num;
-            Console.WriteLine(string.Join(",", result1));
+            Console.WriteLine(string.Join(",", result1)); //test
         }
     }
 }
